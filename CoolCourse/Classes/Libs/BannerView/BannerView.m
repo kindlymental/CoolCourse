@@ -286,17 +286,6 @@
     return [UIImage imageNamed:_noDataImageName];
 }
 
-#pragma mark - 捕获父控制器的视图显示和消失方法,相应的打开和暂停定时器
-
-- (void)aop_viewWillDisappear {
-    [self pauseTimer];
-    
-}
-
-- (void)aop_viewWillAppear {
-    [self startTimer];
-}
-
 - (UIViewController *)viewController {
     
     for (UIView* next = [self superview]; next; next = next.superview) {

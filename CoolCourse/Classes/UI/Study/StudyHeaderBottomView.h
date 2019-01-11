@@ -12,5 +12,9 @@
 
 @property (nonatomic,strong) NSArray *bannerDataArray;
 
+- (void)startTimer;
+
+- (void)pauseTimer;
+
 @end
 

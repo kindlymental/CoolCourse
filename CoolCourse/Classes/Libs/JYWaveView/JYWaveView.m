@@ -61,7 +61,7 @@
     _frontColor    = [UIColor blackColor];
     _insideColor   = [UIColor grayColor];
     _frontSpeed    = 0.01;
-    _insideSpeed   = 0.01 * 1.2;
+    _insideSpeed   = 0.01 * 1.2;   // 速度不一样
     _waveOffset    = M_PI;
     _directionType = WaveDirectionTypeBackWard;
 }

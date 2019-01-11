@@ -82,6 +82,16 @@ static NSString *CellID = @"VideoPlayViewCell";
     return cell;
 }
 
+#pragma mark - 视图出现和消失的时候调用,对banner的轮播进行控制
+
+- (void)startTimer {
+    [self.headerView.bottomView startTimer];
+}
+
+- (void)pauseTimer{
+    [self.headerView.bottomView pauseTimer];
+}
+
 #pragma mark - 懒加载
 
 - (UITableView *)tableView {

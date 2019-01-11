@@ -35,7 +35,7 @@
     NSString *className = NSStringFromClass([self class]);
     
     // DiscoverViewController
-    if ([className isEqualToString:@"DiscoverViewController"]) {
+    if ([className isEqualToString:@"StudyViewController"]) {
 //        Class disCoverVc = objc_getClass("DiscoverViewController");
         //发送startTimer消息给disCoverVc
         SEL startTimer = NSSelectorFromString(@"startTimer");
@@ -50,7 +50,7 @@
     NSString *className = NSStringFromClass([self class]);
     
     // DiscoverViewController
-    if ([className isEqualToString:@"DiscoverViewController"]) {
+    if ([className isEqualToString:@"StudyViewController"]) {
         //发送pauseTimer消息给disCoverVc
         SEL pauseTimer = NSSelectorFromString(@"pauseTimer");
         ((void (*)(id, SEL))(void *) objc_msgSend)((id)self, pauseTimer);

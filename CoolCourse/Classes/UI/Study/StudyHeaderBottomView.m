@@ -60,6 +60,14 @@
     });
 }
 
+- (void)startTimer {
+    [self.bannerView startTimer];
+}
+
+- (void)pauseTimer {
+    [self.bannerView pauseTimer];
+}
+
 #pragma mark - 懒加载
 
 - (BannerView *)bannerView {
