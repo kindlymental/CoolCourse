@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  CoolCourse
+//
+//  Created by 刘怡兰 on 2019/1/10.
+//  Copyright © 2019 lyl. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "Masonry.h"
+#import "AFNetworking.h"
+#import "FMDB.h"
+#import "YYModel.h"
+#import "YYWebImage.h"
+#import "FMDBMigrationManager.h"
+#import "SVProgressHUD.h"
+#import "CocoaAsyncSocket-umbrella.h"
+#import "MJRefresh.h"
+#import "UIView+MJExtension.h"
+#import "NSObject+YYAdd.h"
+
+#import "Constants.h"
+
+#endif /* PrefixHeader_pch */
