@@ -8,13 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		A814DDA821E83A0A00F7590B /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A814DDA721E83A0A00F7590B /* NavigationViewController.m */; };
-		A814DDAB21E83E2A00F7590B /* StudyHeaderBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = A814DDAA21E83E2A00F7590B /* StudyHeaderBottomView.m */; };
 		A814DDAF21E8410200F7590B /* BannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A814DDAE21E8410200F7590B /* BannerView.m */; };
 		A814DDB121E8756600F7590B /* user.json in Resources */ = {isa = PBXBuildFile; fileRef = A814DDB021E8756600F7590B /* user.json */; };
 		A814DDB321E875D800F7590B /* my.json in Resources */ = {isa = PBXBuildFile; fileRef = A814DDB221E875D800F7590B /* my.json */; };
 		A814DDB721E877A700F7590B /* BannerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A814DDB621E877A700F7590B /* BannerModel.m */; };
 		A814DDBB21E886B000F7590B /* UIViewController+LifeCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = A814DDBA21E886B000F7590B /* UIViewController+LifeCircle.m */; };
-		A814DDC121E8A7F300F7590B /* WaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = A814DDC021E8A7F200F7590B /* WaveView.m */; };
 		A814DDC721E8AE7800F7590B /* WeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A814DDC321E8AE7800F7590B /* WeakProxy.m */; };
 		A814DDC821E8AE7800F7590B /* JYWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = A814DDC621E8AE7800F7590B /* JYWaveView.m */; };
 		A844B17321E7022800529961 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A844B17221E7022800529961 /* AppDelegate.m */; };
@@ -35,8 +33,6 @@
 		A844B1DB21E7324B00529961 /* DiscoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A844B1D921E7324B00529961 /* DiscoverViewController.xib */; };
 		A844B1DF21E7325800529961 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A844B1DD21E7325800529961 /* MineViewController.m */; };
 		A844B1E021E7325800529961 /* MineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A844B1DE21E7325800529961 /* MineViewController.xib */; };
-		A844B1E321E7330600529961 /* StudyHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A844B1E221E7330600529961 /* StudyHeaderView.m */; };
-		A844B1E521E7331600529961 /* StudyHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A844B1E421E7331600529961 /* StudyHeaderView.xib */; };
 		A844B1EA21E7362800529961 /* UIColor+Help.m in Sources */ = {isa = PBXBuildFile; fileRef = A844B1E921E7362700529961 /* UIColor+Help.m */; };
 		A844B1F321E7417200529961 /* YXPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A844B1EE21E7417200529961 /* YXPlayer.m */; };
 		A844B1F421E7417200529961 /* VideoPlayControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = A844B1F021E7417200529961 /* VideoPlayControlView.m */; };
@@ -44,6 +40,16 @@
 		A844B1FB21E7467E00529961 /* VideoPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = A844B1FA21E7467E00529961 /* VideoPlayView.m */; };
 		A844B1FF21E74A1C00529961 /* VideoPlayViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A844B1FD21E74A1C00529961 /* VideoPlayViewCell.m */; };
 		A844B20021E74A1C00529961 /* VideoPlayViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A844B1FE21E74A1C00529961 /* VideoPlayViewCell.xib */; };
+		A84CEE6921F0B1DD001A7F46 /* StudyHeaderBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = A84CEE6321F0B1DD001A7F46 /* StudyHeaderBottomView.m */; };
+		A84CEE6A21F0B1DD001A7F46 /* StudyHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A84CEE6521F0B1DD001A7F46 /* StudyHeaderView.m */; };
+		A84CEE6B21F0B1DD001A7F46 /* StudyHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A84CEE6621F0B1DD001A7F46 /* StudyHeaderView.xib */; };
+		A84CEE6C21F0B1DD001A7F46 /* WaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = A84CEE6821F0B1DD001A7F46 /* WaveView.m */; };
+		A8E7ABF321EB696F004B42FA /* StudyVideoPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E7ABF221EB696F004B42FA /* StudyVideoPlayViewController.m */; };
+		A8E7ABF621EB6A5D004B42FA /* CourseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E7ABF521EB6A5D004B42FA /* CourseModel.m */; };
+		A8E7ABF921EB8994004B42FA /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E7ABF821EB8993004B42FA /* IJKMediaFramework.framework */; };
+		A8E7ABFC21EB89F6004B42FA /* VideoStreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E7ABFB21EB89F6004B42FA /* VideoStreamViewController.m */; };
+		A8E7ABFE21EB8B2C004B42FA /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E7ABFD21EB8B2C004B42FA /* libz.tbd */; };
+		A8E7AC0021EB8B34004B42FA /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E7ABFF21EB8B34004B42FA /* VideoToolbox.framework */; };
 		BE2D7C0023E945ED804D42EF /* Pods_CoolCourse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEFE5165CDE6F0DFBB49C314 /* Pods_CoolCourse.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,8 +74,6 @@
 		34F51322E00B692F5D0F560D /* Pods-CoolCourse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolCourse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoolCourse/Pods-CoolCourse.debug.xcconfig"; sourceTree = "<group>"; };
 		A814DDA621E83A0A00F7590B /* NavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
 		A814DDA721E83A0A00F7590B /* NavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
-		A814DDA921E83E2A00F7590B /* StudyHeaderBottomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudyHeaderBottomView.h; sourceTree = "<group>"; };
-		A814DDAA21E83E2A00F7590B /* StudyHeaderBottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudyHeaderBottomView.m; sourceTree = "<group>"; };
 		A814DDAD21E8410200F7590B /* BannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerView.h; sourceTree = "<group>"; };
 		A814DDAE21E8410200F7590B /* BannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerView.m; sourceTree = "<group>"; };
 		A814DDB021E8756600F7590B /* user.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = user.json; sourceTree = "<group>"; };
@@ -78,8 +82,6 @@
 		A814DDB621E877A700F7590B /* BannerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerModel.m; sourceTree = "<group>"; };
 		A814DDB921E886B000F7590B /* UIViewController+LifeCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LifeCircle.h"; sourceTree = "<group>"; };
 		A814DDBA21E886B000F7590B /* UIViewController+LifeCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LifeCircle.m"; sourceTree = "<group>"; };
-		A814DDBF21E8A7F200F7590B /* WaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveView.h; sourceTree = "<group>"; };
-		A814DDC021E8A7F200F7590B /* WaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveView.m; sourceTree = "<group>"; };
 		A814DDC321E8AE7800F7590B /* WeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeakProxy.m; sourceTree = "<group>"; };
 		A814DDC421E8AE7800F7590B /* JYWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYWaveView.h; sourceTree = "<group>"; };
 		A814DDC521E8AE7800F7590B /* WeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeakProxy.h; sourceTree = "<group>"; };
@@ -115,9 +117,6 @@
 		A844B1DC21E7325800529961 /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
 		A844B1DD21E7325800529961 /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 		A844B1DE21E7325800529961 /* MineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MineViewController.xib; sourceTree = "<group>"; };
-		A844B1E121E7330600529961 /* StudyHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudyHeaderView.h; sourceTree = "<group>"; };
-		A844B1E221E7330600529961 /* StudyHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudyHeaderView.m; sourceTree = "<group>"; };
-		A844B1E421E7331600529961 /* StudyHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StudyHeaderView.xib; sourceTree = "<group>"; };
 		A844B1E821E7362700529961 /* UIColor+Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Help.h"; sourceTree = "<group>"; };
 		A844B1E921E7362700529961 /* UIColor+Help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Help.m"; sourceTree = "<group>"; };
 		A844B1EB21E73E7100529961 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -132,6 +131,22 @@
 		A844B1FC21E74A1C00529961 /* VideoPlayViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoPlayViewCell.h; sourceTree = "<group>"; };
 		A844B1FD21E74A1C00529961 /* VideoPlayViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoPlayViewCell.m; sourceTree = "<group>"; };
 		A844B1FE21E74A1C00529961 /* VideoPlayViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoPlayViewCell.xib; sourceTree = "<group>"; };
+		A84CEE6221F0B1DD001A7F46 /* StudyHeaderBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyHeaderBottomView.h; sourceTree = "<group>"; };
+		A84CEE6321F0B1DD001A7F46 /* StudyHeaderBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyHeaderBottomView.m; sourceTree = "<group>"; };
+		A84CEE6421F0B1DD001A7F46 /* StudyHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudyHeaderView.h; sourceTree = "<group>"; };
+		A84CEE6521F0B1DD001A7F46 /* StudyHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudyHeaderView.m; sourceTree = "<group>"; };
+		A84CEE6621F0B1DD001A7F46 /* StudyHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StudyHeaderView.xib; sourceTree = "<group>"; };
+		A84CEE6721F0B1DD001A7F46 /* WaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveView.h; sourceTree = "<group>"; };
+		A84CEE6821F0B1DD001A7F46 /* WaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveView.m; sourceTree = "<group>"; };
+		A8E7ABF121EB696F004B42FA /* StudyVideoPlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudyVideoPlayViewController.h; sourceTree = "<group>"; };
+		A8E7ABF221EB696F004B42FA /* StudyVideoPlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudyVideoPlayViewController.m; sourceTree = "<group>"; };
+		A8E7ABF421EB6A5D004B42FA /* CourseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CourseModel.h; sourceTree = "<group>"; };
+		A8E7ABF521EB6A5D004B42FA /* CourseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CourseModel.m; sourceTree = "<group>"; };
+		A8E7ABF821EB8993004B42FA /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		A8E7ABFA21EB89F6004B42FA /* VideoStreamViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoStreamViewController.h; sourceTree = "<group>"; };
+		A8E7ABFB21EB89F6004B42FA /* VideoStreamViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoStreamViewController.m; sourceTree = "<group>"; };
+		A8E7ABFD21EB8B2C004B42FA /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A8E7ABFF21EB8B34004B42FA /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		D40C29026C178AFB6B12139A /* Pods-CoolCourse.dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolCourse.dev.xcconfig"; path = "Pods/Target Support Files/Pods-CoolCourse/Pods-CoolCourse.dev.xcconfig"; sourceTree = "<group>"; };
 		E6A4D3A27442A3FA831BF2BA /* Pods-CoolCourse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolCourse.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoolCourse/Pods-CoolCourse.release.xcconfig"; sourceTree = "<group>"; };
 		FEFE5165CDE6F0DFBB49C314 /* Pods_CoolCourse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoolCourse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,7 +157,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8E7AC0021EB8B34004B42FA /* VideoToolbox.framework in Frameworks */,
+				A8E7ABFE21EB8B2C004B42FA /* libz.tbd in Frameworks */,
 				BE2D7C0023E945ED804D42EF /* Pods_CoolCourse.framework in Frameworks */,
+				A8E7ABF921EB8994004B42FA /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +205,8 @@
 			children = (
 				A814DDB521E877A700F7590B /* BannerModel.h */,
 				A814DDB621E877A700F7590B /* BannerModel.m */,
+				A8E7ABF421EB6A5D004B42FA /* CourseModel.h */,
+				A8E7ABF521EB6A5D004B42FA /* CourseModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -236,6 +256,7 @@
 		A844B17021E7022800529961 /* CoolCourse */ = {
 			isa = PBXGroup;
 			children = (
+				A8E7ABF721EB8993004B42FA /* Shell */,
 				A844B1C021E71D6000529961 /* Classes */,
 				A844B1A321E712C200529961 /* Resources */,
 				A844B17121E7022800529961 /* AppDelegate.h */,
@@ -316,17 +337,15 @@
 		A844B1C621E7319B00529961 /* Study */ = {
 			isa = PBXGroup;
 			children = (
-				A814DDBF21E8A7F200F7590B /* WaveView.h */,
-				A814DDC021E8A7F200F7590B /* WaveView.m */,
+				A84CEE6121F0B1DD001A7F46 /* HomeView */,
 				A844B1EC21E7417200529961 /* Video */,
 				A844B1D221E7323D00529961 /* StudyViewController.h */,
 				A844B1D321E7323D00529961 /* StudyViewController.m */,
 				A844B1D421E7323D00529961 /* StudyViewController.xib */,
-				A844B1E121E7330600529961 /* StudyHeaderView.h */,
-				A844B1E221E7330600529961 /* StudyHeaderView.m */,
-				A844B1E421E7331600529961 /* StudyHeaderView.xib */,
-				A814DDA921E83E2A00F7590B /* StudyHeaderBottomView.h */,
-				A814DDAA21E83E2A00F7590B /* StudyHeaderBottomView.m */,
+				A8E7ABFA21EB89F6004B42FA /* VideoStreamViewController.h */,
+				A8E7ABFB21EB89F6004B42FA /* VideoStreamViewController.m */,
+				A8E7ABF121EB696F004B42FA /* StudyVideoPlayViewController.h */,
+				A8E7ABF221EB696F004B42FA /* StudyVideoPlayViewController.m */,
 			);
 			path = Study;
 			sourceTree = "<group>";
@@ -415,9 +434,33 @@
 			path = Video;
 			sourceTree = "<group>";
 		};
+		A84CEE6121F0B1DD001A7F46 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				A84CEE6221F0B1DD001A7F46 /* StudyHeaderBottomView.h */,
+				A84CEE6321F0B1DD001A7F46 /* StudyHeaderBottomView.m */,
+				A84CEE6421F0B1DD001A7F46 /* StudyHeaderView.h */,
+				A84CEE6521F0B1DD001A7F46 /* StudyHeaderView.m */,
+				A84CEE6621F0B1DD001A7F46 /* StudyHeaderView.xib */,
+				A84CEE6721F0B1DD001A7F46 /* WaveView.h */,
+				A84CEE6821F0B1DD001A7F46 /* WaveView.m */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		A8E7ABF721EB8993004B42FA /* Shell */ = {
+			isa = PBXGroup;
+			children = (
+				A8E7ABF821EB8993004B42FA /* IJKMediaFramework.framework */,
+			);
+			path = Shell;
+			sourceTree = "<group>";
+		};
 		CC48BCD2EFFC18F8A03C4A2E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A8E7ABFF21EB8B34004B42FA /* VideoToolbox.framework */,
+				A8E7ABFD21EB8B2C004B42FA /* libz.tbd */,
 				FEFE5165CDE6F0DFBB49C314 /* Pods_CoolCourse.framework */,
 			);
 			name = Frameworks;
@@ -529,10 +572,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A844B1A921E7134000529961 /* SongBlack.ttf in Resources */,
+				A84CEE6B21F0B1DD001A7F46 /* StudyHeaderView.xib in Resources */,
 				A844B1A721E7131E00529961 /* Launch.mp4 in Resources */,
 				A844B1D621E7323D00529961 /* StudyViewController.xib in Resources */,
 				A844B1A521E712C200529961 /* BebasNeue Bold.ttf in Resources */,
-				A844B1E521E7331600529961 /* StudyHeaderView.xib in Resources */,
 				A844B17B21E7022B00529961 /* Assets.xcassets in Resources */,
 				A844B1DB21E7324B00529961 /* DiscoverViewController.xib in Resources */,
 				A844B17921E7022800529961 /* Main.storyboard in Resources */,
@@ -607,6 +650,7 @@
 				"${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework",
 				"${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework",
 				"${BUILT_PRODUCTS_DIR}/UICKeyChainStore/UICKeyChainStore.framework",
+				"${BUILT_PRODUCTS_DIR}/XANavBarTransition/XANavBarTransition.framework",
 				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
 				"${BUILT_PRODUCTS_DIR}/YYCategories/YYCategories.framework",
 				"${BUILT_PRODUCTS_DIR}/YYImage/YYImage.framework",
@@ -637,6 +681,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTTAttributedLabel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TZImagePickerController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICKeyChainStore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XANavBarTransition.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCategories.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYImage.framework",
@@ -658,24 +703,27 @@
 				A844B1FF21E74A1C00529961 /* VideoPlayViewCell.m in Sources */,
 				A844B1CE21E7320200529961 /* TabBarViewController.m in Sources */,
 				A814DDAF21E8410200F7590B /* BannerView.m in Sources */,
-				A814DDAB21E83E2A00F7590B /* StudyHeaderBottomView.m in Sources */,
 				A844B1D121E7321600529961 /* BaseViewController.m in Sources */,
 				A844B1DA21E7324B00529961 /* DiscoverViewController.m in Sources */,
+				A8E7ABFC21EB89F6004B42FA /* VideoStreamViewController.m in Sources */,
+				A8E7ABF321EB696F004B42FA /* StudyVideoPlayViewController.m in Sources */,
+				A84CEE6A21F0B1DD001A7F46 /* StudyHeaderView.m in Sources */,
 				A814DDC721E8AE7800F7590B /* WeakProxy.m in Sources */,
 				A814DDA821E83A0A00F7590B /* NavigationViewController.m in Sources */,
 				A844B1D521E7323D00529961 /* StudyViewController.m in Sources */,
-				A814DDC121E8A7F300F7590B /* WaveView.m in Sources */,
 				A814DDB721E877A700F7590B /* BannerModel.m in Sources */,
 				A844B1FB21E7467E00529961 /* VideoPlayView.m in Sources */,
 				A844B1F421E7417200529961 /* VideoPlayControlView.m in Sources */,
 				A844B1EA21E7362800529961 /* UIColor+Help.m in Sources */,
 				A844B1F321E7417200529961 /* YXPlayer.m in Sources */,
 				A844B18121E7022B00529961 /* main.m in Sources */,
+				A8E7ABF621EB6A5D004B42FA /* CourseModel.m in Sources */,
 				A844B1F821E742D000529961 /* ULTimer.m in Sources */,
 				A814DDC821E8AE7800F7590B /* JYWaveView.m in Sources */,
 				A844B17321E7022800529961 /* AppDelegate.m in Sources */,
+				A84CEE6921F0B1DD001A7F46 /* StudyHeaderBottomView.m in Sources */,
 				A844B1C321E71DAB00529961 /* Constants.m in Sources */,
-				A844B1E321E7330600529961 /* StudyHeaderView.m in Sources */,
+				A84CEE6C21F0B1DD001A7F46 /* WaveView.m in Sources */,
 				A814DDBB21E886B000F7590B /* UIViewController+LifeCircle.m in Sources */,
 				A844B1DF21E7325800529961 /* MineViewController.m in Sources */,
 			);
@@ -845,6 +893,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 67NV28A6E8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CoolCourse/Shell",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = CoolCourse/PrefixHeader.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -857,6 +909,66 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"CocoaAsyncSocket\"",
+					"-framework",
+					"\"CocoaLumberjack\"",
+					"-framework",
+					"\"DZNEmptyDataSet\"",
+					"-framework",
+					"\"DateTools\"",
+					"-framework",
+					"\"FBRetainCycleDetector\"",
+					"-framework",
+					"\"FMDB\"",
+					"-framework",
+					"\"FMDBMigrationManager\"",
+					"-framework",
+					"\"HappyDNS\"",
+					"-framework",
+					"\"MJRefresh\"",
+					"-framework",
+					"\"MLEmojiLabel\"",
+					"-framework",
+					"\"MLeaksFinder\"",
+					"-framework",
+					"\"MTLFMDBAdapter\"",
+					"-framework",
+					"\"Mantle\"",
+					"-framework",
+					"\"Masonry\"",
+					"-framework",
+					"\"Protobuf\"",
+					"-framework",
+					"\"Qiniu\"",
+					"-framework",
+					"\"ReactiveObjC\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-framework",
+					"\"TTTAttributedLabel\"",
+					"-framework",
+					"\"TZImagePickerController\"",
+					"-framework",
+					"\"UICKeyChainStore\"",
+					"-framework",
+					"\"XANavBarTransition\"",
+					"-framework",
+					"\"YYCache\"",
+					"-framework",
+					"\"YYCategories\"",
+					"-framework",
+					"\"YYImage\"",
+					"-framework",
+					"\"YYModel\"",
+					"-framework",
+					"\"YYWebImage\"",
+					"-all_load",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lyl.CoolCourse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -873,6 +985,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 67NV28A6E8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CoolCourse/Shell",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = CoolCourse/PrefixHeader.pch;
 				INFOPLIST_FILE = CoolCourse/Info.plist;
@@ -880,6 +996,66 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"CocoaAsyncSocket\"",
+					"-framework",
+					"\"CocoaLumberjack\"",
+					"-framework",
+					"\"DZNEmptyDataSet\"",
+					"-framework",
+					"\"DateTools\"",
+					"-framework",
+					"\"FBRetainCycleDetector\"",
+					"-framework",
+					"\"FMDB\"",
+					"-framework",
+					"\"FMDBMigrationManager\"",
+					"-framework",
+					"\"HappyDNS\"",
+					"-framework",
+					"\"MJRefresh\"",
+					"-framework",
+					"\"MLEmojiLabel\"",
+					"-framework",
+					"\"MLeaksFinder\"",
+					"-framework",
+					"\"MTLFMDBAdapter\"",
+					"-framework",
+					"\"Mantle\"",
+					"-framework",
+					"\"Masonry\"",
+					"-framework",
+					"\"Protobuf\"",
+					"-framework",
+					"\"Qiniu\"",
+					"-framework",
+					"\"ReactiveObjC\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-framework",
+					"\"TTTAttributedLabel\"",
+					"-framework",
+					"\"TZImagePickerController\"",
+					"-framework",
+					"\"UICKeyChainStore\"",
+					"-framework",
+					"\"XANavBarTransition\"",
+					"-framework",
+					"\"YYCache\"",
+					"-framework",
+					"\"YYCategories\"",
+					"-framework",
+					"\"YYImage\"",
+					"-framework",
+					"\"YYModel\"",
+					"-framework",
+					"\"YYWebImage\"",
+					"-all_load",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lyl.CoolCourse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1029,6 +1205,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 67NV28A6E8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CoolCourse/Shell",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = CoolCourse/PrefixHeader.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1041,6 +1221,66 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"CocoaAsyncSocket\"",
+					"-framework",
+					"\"CocoaLumberjack\"",
+					"-framework",
+					"\"DZNEmptyDataSet\"",
+					"-framework",
+					"\"DateTools\"",
+					"-framework",
+					"\"FBRetainCycleDetector\"",
+					"-framework",
+					"\"FMDB\"",
+					"-framework",
+					"\"FMDBMigrationManager\"",
+					"-framework",
+					"\"HappyDNS\"",
+					"-framework",
+					"\"MJRefresh\"",
+					"-framework",
+					"\"MLEmojiLabel\"",
+					"-framework",
+					"\"MLeaksFinder\"",
+					"-framework",
+					"\"MTLFMDBAdapter\"",
+					"-framework",
+					"\"Mantle\"",
+					"-framework",
+					"\"Masonry\"",
+					"-framework",
+					"\"Protobuf\"",
+					"-framework",
+					"\"Qiniu\"",
+					"-framework",
+					"\"ReactiveObjC\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-framework",
+					"\"TTTAttributedLabel\"",
+					"-framework",
+					"\"TZImagePickerController\"",
+					"-framework",
+					"\"UICKeyChainStore\"",
+					"-framework",
+					"\"XANavBarTransition\"",
+					"-framework",
+					"\"YYCache\"",
+					"-framework",
+					"\"YYCategories\"",
+					"-framework",
+					"\"YYImage\"",
+					"-framework",
+					"\"YYModel\"",
+					"-framework",
+					"\"YYWebImage\"",
+					"-all_load",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lyl.CoolCourse;
 				PRODUCT_NAME = "$(TARGET_NAME)";

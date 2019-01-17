@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CourseModel.h"
 
 @interface VideoPlayViewCell : UITableViewCell
 
-
+@property (nonatomic,strong) CourseModel *model;
 
 @end
 

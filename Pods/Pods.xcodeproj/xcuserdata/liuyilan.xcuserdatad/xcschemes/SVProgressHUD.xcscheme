@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D23BA9D6C7B6466F472B8E7C402D3928"
+               BlueprintIdentifier = "D1CC6AF9CC4C4802CE58C1F89DCA92C2"
                BlueprintName = "SVProgressHUD"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "SVProgressHUD.framework">

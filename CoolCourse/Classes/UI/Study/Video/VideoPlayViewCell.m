@@ -28,6 +28,14 @@
     self.imgView.layer.cornerRadius = 10;
 }
 
+- (void)setModel:(CourseModel *)model {
+    _model = model;
+    
+    [self.imgView yy_setImageWithURL:[NSURL URLWithString:model.onpic] placeholder:[UIImage imageNamed:@"video_play_default"]];
+    self.titleLabel.text = model.name;
+    self.detailLabel.text = model.intro;
+}
+
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 

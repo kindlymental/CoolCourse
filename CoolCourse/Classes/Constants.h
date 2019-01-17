@@ -22,6 +22,32 @@ FOUNDATION_EXPORT NSString * const httpPrefix;
 #define ScreenHeight   [[UIScreen mainScreen] bounds].size.height
 
 
+#define XA_ADJUSTS_SCROLLVIEW_INSETS(scrollView)\
+if (@available(iOS 11.0, *)) {\
+if([scrollView respondsToSelector:@selector(setContentInsetAdjustmentBehavior:)]){\
+scrollView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;\
+}\
+} else {\
+self.automaticallyAdjustsScrollViewInsets = NO;\
+}
+
+#define IS_IPHONE_SafeAreaBottomNotZero    isIPhoneXSeries()   // (SCREEN_MAX_LENGTH == 812.0)
+#define IS_IPHONE_4 (SCREEN_MAX_LENGTH < 568.0)
+#define IS_IPHONE_5Less (SCREEN_MAX_LENGTH <= 568.0)
+#define IS_IPHONE_5 (SCREEN_MAX_LENGTH == 568.0)
+#define IS_IPHONE_6 (SCREEN_MAX_LENGTH == 667.0)
+#define IS_IPHONE_6Less (SCREEN_MAX_LENGTH <= 667.0)
+#define IS_IPHONE_6P (SCREEN_MAX_LENGTH == 736.0)
+#define IS_IPHONE_SafeAreaBottomNotZero    isIPhoneXSeries()   // (SCREEN_MAX_LENGTH == 812.0)
+#define IS_IPHONE_X     (SCREEN_MAX_LENGTH == 812.0)
+
+//导航栏的高度
+#define UI_NAVIGATION_BAR_HEIGHT         44
+//导航栏和状态栏的总高度
+#define UI_NAVIGATION_BAR_and_StatusBar_HEIGHT (UI_STATUS_BAR_HEIGHT+UI_NAVIGATION_BAR_HEIGHT)
+#define UI_STATUS_BAR_HEIGHT      (IS_IPHONE_SafeAreaBottomNotZero ? 44 : 20)
+#define UI_TABBAR_IPHONE_X_HEIGHT  34
+
 #define Font24px [UIFont systemFontOfSize:24.f]
 #define Font22px [UIFont systemFontOfSize:22.f]
 #define Font20px [UIFont systemFontOfSize:20.f]

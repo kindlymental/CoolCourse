@@ -33,4 +33,7 @@ target 'CoolCourse' do
     pod 'CocoaLumberjack','3.4.2'
     #无数据提示
     pod 'DZNEmptyDataSet','1.8.1'
+    
+    #导航栏透明度渐变效果
+    pod 'XANavBarTransition'
 end
