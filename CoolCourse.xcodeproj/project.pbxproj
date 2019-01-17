@@ -46,7 +46,6 @@
 		A84CEE6C21F0B1DD001A7F46 /* WaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = A84CEE6821F0B1DD001A7F46 /* WaveView.m */; };
 		A8E7ABF321EB696F004B42FA /* StudyVideoPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E7ABF221EB696F004B42FA /* StudyVideoPlayViewController.m */; };
 		A8E7ABF621EB6A5D004B42FA /* CourseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E7ABF521EB6A5D004B42FA /* CourseModel.m */; };
-		A8E7ABF921EB8994004B42FA /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E7ABF821EB8993004B42FA /* IJKMediaFramework.framework */; };
 		A8E7ABFC21EB89F6004B42FA /* VideoStreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8E7ABFB21EB89F6004B42FA /* VideoStreamViewController.m */; };
 		A8E7ABFE21EB8B2C004B42FA /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E7ABFD21EB8B2C004B42FA /* libz.tbd */; };
 		A8E7AC0021EB8B34004B42FA /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E7ABFF21EB8B34004B42FA /* VideoToolbox.framework */; };
@@ -142,7 +141,6 @@
 		A8E7ABF221EB696F004B42FA /* StudyVideoPlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudyVideoPlayViewController.m; sourceTree = "<group>"; };
 		A8E7ABF421EB6A5D004B42FA /* CourseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CourseModel.h; sourceTree = "<group>"; };
 		A8E7ABF521EB6A5D004B42FA /* CourseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CourseModel.m; sourceTree = "<group>"; };
-		A8E7ABF821EB8993004B42FA /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		A8E7ABFA21EB89F6004B42FA /* VideoStreamViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoStreamViewController.h; sourceTree = "<group>"; };
 		A8E7ABFB21EB89F6004B42FA /* VideoStreamViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoStreamViewController.m; sourceTree = "<group>"; };
 		A8E7ABFD21EB8B2C004B42FA /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
@@ -160,7 +158,6 @@
 				A8E7AC0021EB8B34004B42FA /* VideoToolbox.framework in Frameworks */,
 				A8E7ABFE21EB8B2C004B42FA /* libz.tbd in Frameworks */,
 				BE2D7C0023E945ED804D42EF /* Pods_CoolCourse.framework in Frameworks */,
-				A8E7ABF921EB8994004B42FA /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +253,6 @@
 		A844B17021E7022800529961 /* CoolCourse */ = {
 			isa = PBXGroup;
 			children = (
-				A8E7ABF721EB8993004B42FA /* Shell */,
 				A844B1C021E71D6000529961 /* Classes */,
 				A844B1A321E712C200529961 /* Resources */,
 				A844B17121E7022800529961 /* AppDelegate.h */,
@@ -446,14 +442,6 @@
 				A84CEE6821F0B1DD001A7F46 /* WaveView.m */,
 			);
 			path = HomeView;
-			sourceTree = "<group>";
-		};
-		A8E7ABF721EB8993004B42FA /* Shell */ = {
-			isa = PBXGroup;
-			children = (
-				A8E7ABF821EB8993004B42FA /* IJKMediaFramework.framework */,
-			);
-			path = Shell;
 			sourceTree = "<group>";
 		};
 		CC48BCD2EFFC18F8A03C4A2E /* Frameworks */ = {

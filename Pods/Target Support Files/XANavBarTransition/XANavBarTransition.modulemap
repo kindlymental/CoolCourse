@@ -1,0 +1,6 @@
+framework module XANavBarTransition {
+  umbrella header "XANavBarTransition-umbrella.h"
+
+  export *
+  module * { export * }
+}
