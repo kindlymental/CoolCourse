@@ -10,7 +10,7 @@
 #import "VideoPlayControlView.h"
 #import "YXPlayer.h"
 
-@interface StudyVideoPlayViewController () <YXTutorialControlDelegate, YXPlayerDelegate>
+@interface StudyVideoPlayViewController () <VideoControlDelegate, YXPlayerDelegate>
 
 @property (nonatomic,strong) VideoPlayControlView *control;
 @property (nonatomic, strong) YXPlayer *player;
@@ -25,8 +25,9 @@
     self.view.backgroundColor = [UIColor blackColor];
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(showControl)];
     [self.view addGestureRecognizer:tap];
-    [self initPlayer];
-    [self initControl];
+    
+    [self.view.layer addSublayer:self.player.layer];
+    [self.view addSubview:self.control];
 }
 
 - (void)viewDidDisappear:(BOOL)animated {
@@ -35,19 +36,39 @@
     [self closePlayer];
 }
 
-// 初始化播放器
-- (void)initPlayer {
-    _player = [[YXPlayer alloc] initWithURL:self.videoUrl];
-    _player.delegate = self;
-    _player.layer.frame = [UIScreen mainScreen].bounds;
-    [self.view.layer addSublayer:_player.layer];
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    [self.navigationController setNavigationBarHidden:YES animated:NO];
 }
 
+#pragma mark - 横竖屏
+
+- (BOOL)shouldAutorotate {
+    return UIInterfaceOrientationPortrait;
+}
+
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
+    return UIInterfaceOrientationMaskPortrait;
+}
+
+#pragma mark - 懒加载
+// 初始化播放器
+- (YXPlayer *)player {
+    if (!_player) {
+        _player = [[YXPlayer alloc] initWithURL:self.videoUrl];
+        _player.delegate = self;
+        _player.layer.frame = [UIScreen mainScreen].bounds;
+    }
+    return _player;
+}
 // 初始化UI控件
-- (void)initControl {
-    _control = [[VideoPlayControlView alloc] init];
-    _control.delegate = self;
-    [self.view addSubview:_control];
+- (VideoPlayControlView *)control {
+    if (!_control) {
+        _control = [[VideoPlayControlView alloc] init];
+        _control.delegate = self;
+    }
+    return _control;
 }
 
 #pragma mark - Event
@@ -66,11 +87,11 @@
 
 // 播放视频
 - (void)playVideo {
-    if (self.control.status == YXTutorialControlStatusEnded) {
+    if (self.control.status == VideoControlStatusEnded) {
         // 视频回放
         [self.player playback];
         return;
-    } else if (self.control.status == YXTutorialControlStatusWAN) {
+    } else if (self.control.status == VideoControlStatusWAN) {
         // 非WiFi下也允许播放
         self.player.onlyPlayOnWiFi = NO;
     }
@@ -95,7 +116,7 @@
  */
 - (void)reachabilityStatusChange:(AFNetworkReachabilityStatus)status {
     if (status == AFNetworkReachabilityStatusReachableViaWWAN && self.player.onlyPlayOnWiFi) {
-        self.control.status = YXTutorialControlStatusWAN;
+        self.control.status = VideoControlStatusWAN;
     }
 }
 
@@ -126,7 +147,7 @@
  播放结束
  */
 - (void)playToEndTime {
-    self.control.status = YXTutorialControlStatusEnded;
+    self.control.status = VideoControlStatusEnded;
 }
 
 /**

@@ -150,7 +150,7 @@ static NSString *CellID = @"VideoPlayViewCell";
         //    videoVc.videoUrl = self.videoArray[indexPath.row].burl;
         videoVc.videoUrl = @"http://flv3.bn.netease.com/videolib3/1707/03/bGYNX4211/SD/bGYNX4211-mobile.mp4";
         self.hidesBottomBarWhenPushed = YES;
-        [self.navigationController pushViewController:videoVc animated:YES];
+        [self presentViewController:videoVc animated:YES completion:nil];
         self.hidesBottomBarWhenPushed=NO;
     } else {
         VideoStreamViewController *vc = [[VideoStreamViewController alloc]init];

@@ -1,5 +1,5 @@
 //
-//  YXTutorialVideoControl.h
+//  VideoPlayControlView.h
 //  WasherV3
 //
 //  Created by mac on 2018/11/27.
@@ -8,15 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-typedef NS_ENUM(NSInteger, YXTutorialControlStatus) {
-    YXTutorialControlStatusUnknown, // 初始状态
-    YXTutorialControlStatusWAN,     // 非WiFi
-    YXTutorialControlStatusPlaying, // 播放中
-    YXTutorialControlStatusPaused,  // 暂停播放
-    YXTutorialControlStatusEnded    // 播放结束
+typedef NS_ENUM(NSInteger, VideoControlStatus) {
+    VideoControlStatusUnknown, // 初始状态
+    VideoControlStatusWAN,     // 非WiFi
+    VideoControlStatusPlaying, // 播放中
+    VideoControlStatusPaused,  // 暂停播放
+    VideoControlStatusEnded    // 播放结束
 };
 
-@protocol YXTutorialControlDelegate <NSObject>
+@protocol VideoControlDelegate <NSObject>
 
 // 关闭播放器
 - (void)closePlayer;
@@ -46,8 +46,8 @@ typedef NS_ENUM(NSInteger, YXTutorialControlStatus) {
 @property (nonatomic, strong) UILabel *endLabel;   // 剩余时间
 @property (nonatomic, strong) UISlider *slider;    // 播放进度
 
-@property (weak, NS_NONATOMIC_IOSONLY, nullable) id<YXTutorialControlDelegate> delegate;
+@property (weak, NS_NONATOMIC_IOSONLY, nullable) id<VideoControlDelegate> delegate;
 
-@property (nonatomic, assign) YXTutorialControlStatus status;
+@property (nonatomic, assign) VideoControlStatus status;
 
 @end

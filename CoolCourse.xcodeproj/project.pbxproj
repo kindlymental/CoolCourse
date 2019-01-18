@@ -15,6 +15,7 @@
 		A814DDBB21E886B000F7590B /* UIViewController+LifeCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = A814DDBA21E886B000F7590B /* UIViewController+LifeCircle.m */; };
 		A814DDC721E8AE7800F7590B /* WeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A814DDC321E8AE7800F7590B /* WeakProxy.m */; };
 		A814DDC821E8AE7800F7590B /* JYWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = A814DDC621E8AE7800F7590B /* JYWaveView.m */; };
+		A81C722C21F1692E00F1FE09 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A81C722A21F1692E00F1FE09 /* IJKMediaFramework.framework */; };
 		A844B17321E7022800529961 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A844B17221E7022800529961 /* AppDelegate.m */; };
 		A844B17921E7022800529961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A844B17721E7022800529961 /* Main.storyboard */; };
 		A844B17B21E7022B00529961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A844B17A21E7022B00529961 /* Assets.xcassets */; };
@@ -85,6 +86,8 @@
 		A814DDC421E8AE7800F7590B /* JYWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYWaveView.h; sourceTree = "<group>"; };
 		A814DDC521E8AE7800F7590B /* WeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeakProxy.h; sourceTree = "<group>"; };
 		A814DDC621E8AE7800F7590B /* JYWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYWaveView.m; sourceTree = "<group>"; };
+		A81C722A21F1692E00F1FE09 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		A81C722D21F1777900F1FE09 /* VideoConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoConstant.h; sourceTree = "<group>"; };
 		A844B16E21E7022800529961 /* CoolCourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolCourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A844B17121E7022800529961 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A844B17221E7022800529961 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -158,6 +161,7 @@
 				A8E7AC0021EB8B34004B42FA /* VideoToolbox.framework in Frameworks */,
 				A8E7ABFE21EB8B2C004B42FA /* libz.tbd in Frameworks */,
 				BE2D7C0023E945ED804D42EF /* Pods_CoolCourse.framework in Frameworks */,
+				A81C722C21F1692E00F1FE09 /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +232,14 @@
 			path = JYWaveView;
 			sourceTree = "<group>";
 		};
+		A81C722821F1692E00F1FE09 /* Shell */ = {
+			isa = PBXGroup;
+			children = (
+				A81C722A21F1692E00F1FE09 /* IJKMediaFramework.framework */,
+			);
+			path = Shell;
+			sourceTree = "<group>";
+		};
 		A844B16521E7022800529961 = {
 			isa = PBXGroup;
 			children = (
@@ -253,6 +265,7 @@
 		A844B17021E7022800529961 /* CoolCourse */ = {
 			isa = PBXGroup;
 			children = (
+				A81C722821F1692E00F1FE09 /* Shell */,
 				A844B1C021E71D6000529961 /* Classes */,
 				A844B1A321E712C200529961 /* Resources */,
 				A844B17121E7022800529961 /* AppDelegate.h */,
@@ -426,6 +439,7 @@
 				A844B1FC21E74A1C00529961 /* VideoPlayViewCell.h */,
 				A844B1FD21E74A1C00529961 /* VideoPlayViewCell.m */,
 				A844B1FE21E74A1C00529961 /* VideoPlayViewCell.xib */,
+				A81C722D21F1777900F1FE09 /* VideoConstant.h */,
 			);
 			path = Video;
 			sourceTree = "<group>";
